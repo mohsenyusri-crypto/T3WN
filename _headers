@@ -1,0 +1,12 @@
+# Ensure Android and iOS can verify app links (Cloudflare Pages)
+/.well-known/assetlinks.json
+  Content-Type: application/json
+
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+
+/well-known/assetlinks.json
+  Content-Type: application/json
+
+/well-known/apple-app-site-association
+  Content-Type: application/json

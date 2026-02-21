@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mohsenyusrialbakri.t3wnandroid",
+      "sha256_cert_fingerprints": ["BB:E1:B5:D5:31:FD:FB:AA:78:55:5B:E8:BD:81:94:E0:65:54:D2:09:DD:7A:98:6C:EF:87:E9:ED:2E:FD:5A:A7"]
+    }
+  }
+]

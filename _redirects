@@ -1,0 +1,4 @@
+# Proxying (200) so /.well-known/* is served from /well-known/* on Cloudflare
+# (avoids issues with dot-prefixed paths not being deployed or served)
+/.well-known/assetlinks.json /well-known/assetlinks.json 200
+/.well-known/apple-app-site-association /well-known/apple-app-site-association 200
