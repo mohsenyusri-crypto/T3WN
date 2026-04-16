@@ -9,7 +9,7 @@ The project includes `_headers` and `_redirects` in `public/` so that on Cloudfl
 - `/.well-known/assetlinks.json` and `/.well-known/apple-app-site-association` are served with `Content-Type: application/json`.
 - Requests to `/.well-known/*` are proxied (200) from `well-known/*`, so Android and iOS verification works even if the deployment skips dot-prefixed paths.
 
-After deploy, check: `https://t3wn.com/.well-known/assetlinks.json` should return JSON, not HTML.
+After deploy, check: `https://t3wn.albakri.technology/.well-known/assetlinks.json` should return JSON, not HTML.
 
 ## iOS: set your Apple Team ID
 
